@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+}
+
+.headerabout {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../res/2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  float: right;
+}
+ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(190, 190, 190);
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+nav ul li a:hover {
+  background-color: rgb(71, 71, 71);
+  color: whitesmoke;
+}
+nav ul li.active a {
+  background-color: rgb(70, 70, 70);
+  color: whitesmoke;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: rgb(190, 190, 190);
+}
+.title h1 {
+  font-size: 60px;
+}
+.title h3 {
+  font-size: 30px;
+  float: right;
+}
+.programimg {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img {
+  margin-top: 300px;
+  margin-left: 50px;
+}
+.logo {
+  position: absolute;
+  margin-top: -20px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #0009;
+  height: 90px;
+  line-height: 60px;
+}
+.logo {
+  align-self: flex-start;
+}
+/* begining work page*/
+/* Set the border color */
+
+.custom-toggler ,.navbar-toggler {
+  border-color: lightgreen;
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+
+.custom-toggler ,.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+
+.navbar-toggler {
+  background-color: grey !important;
+}
+.projects {
+    height: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.images {
+  width: 300px;
+}
+.tt {
+  position: relative;
+  text-align: center;
+}
+.bckwork {
+  background-image: url(../res/3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.projects .project .imgproject img {
+  transition: 2s;
+}
+.projects .project:hover .imgproject img {
+  transform: scale(1.1);
+}
+
+/* ending work page*/
+
+/* begining contact page*/
+.bckcontact {
+  background-image: url(../res/_MG_0543.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.media ul {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.media ul li {
+  list-style: none;
+  margin: 0 25px 20px;
+
+}
+.media ul li .fa {
+  font-size: 50px;
+  transition: 0.6s;
+}
+.media ul li a {
+  text-decoration: none;
+  color: rgb(190, 190, 190);
+  padding: 30px 20px;
+  border: 1px solid transparent;
+  transition: 0.3s ease;
+}
+.media ul li a:hover {
+  background-color: rgb(71, 71, 71);
+  color: whitesmoke;
+}
+.media ul li.active a {
+  background-color: rgb(70, 70, 70);
+  color: whitesmoke;
+}
+main {
+  overflow: auto;
+  padding-bottom: 70px;
+}
+footer {
+  text-align: center ;
+  background-color: #0009;
+  position: relative;
+  height: 70px;
+  margin-top: -70px;
+  clear: both;
+}
+footer p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  color: rgb(146, 145, 145);
+}
+.contact {
+  position: absolute;
+  left: 60%;
+  top: 17%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+@media only screen and (max-width:600px){
+.media ul {
+  flex-direction: column;
+  align-items: center;
+  width: 359px;
+}
+}
+/* ending contact page*/
+/* begining resume page*/
+
+.bckresume{
+    background-image: url(../res/5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.mainresume {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* ending resume page*/
+
